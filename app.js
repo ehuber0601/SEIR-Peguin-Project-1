@@ -86,6 +86,10 @@ const resetter = () => {
     location.reload()
 }
 
+
+////////////////////////////////////////////
+// Make Header change colors each second
+////////////////////////////////////////////
  const setcolor = setTimeout(color1,1000) ;
 
 function color1() {
