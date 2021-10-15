@@ -1,12 +1,47 @@
+body {
+    background-image: url(https://www.onlygfx.com/wp-content/uploads/2018/10/4-confetti-background-1.png);
+    background-size: cover;
+    background-color: purple;
+}
+
+.content {
+    background-color: rgb(255,255,255,0.8);
+    
+}
+
 /* ***************************
 ** HEADING
 *********************** */
 
 h1 {
     text-align: center;
-    color: royalblue;
+    color: rgb(247, 2, 2);
+    font-family: 'Bungee Shade', cursive;
+    /* font-family: 'Tonight', sans-serif; */
 }
 
+.title1 {
+
+    color: rgb(179, 19, 179)
+
+}
+
+.title2 {
+
+    color: skyblue
+
+}
+
+.title3 {
+
+    color: orange
+
+}
+
+.title4 {
+
+    color: red
+}
 /* ***************************
 **Question
 *********************** */
@@ -16,9 +51,11 @@ h1 {
     padding: 30px;
     border: 3px solid blue;
     background-color: royalblue;
-    color: white;
+    color: yellow;
     font-size: 28px;
+    font-family:  'Dosis', sans-serif;
     margin: 10px auto;
+    text-align: center;
 }
 
 /* ***************************
@@ -27,13 +64,17 @@ h1 {
 
 #answer {
     width: 50%;
-    margin: 10px auto;
+    margin: 0px auto;
     color: white;
-    background-color: red;
+    /* background-color: red; */
+    /* border: solid 3px orange; */
+    ;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 #answer ul {
@@ -42,17 +83,24 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;
-
+    padding-left: 0px;
 }
 
 #answer ul li {
     width: 40%;
     height: 40px;
     background-color: black;
+    border: solid 3px purple;
+    border-radius: 15px;
     padding-top: 15px;
     text-align: center;
     margin: 5px;
     font-weight: bolder;
+}
+
+#answer ul li:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 /* ***************************
@@ -62,14 +110,64 @@ h1 {
 #scores {
     display: flex;
     width: 70%;
-    background-color: darkslategray;
+    /* background-color: rgb(28, 238, 238); */
+    /* border: 3px solid red; */
     justify-content: center;
     margin: 10px auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 #player1, #player2 {
     width: 40%;
-    background-color: darkgoldenrod;
+    background-color: rgb(194, 230, 140);
     margin: 5px;
     text-align: center;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+
+#footer {
+
+    width: 100%;
+    padding-bottom: 20px;
+
+}
+
+#resetbtn {
+    background-color: purple;
+    margin:  auto;
+    padding: 10px;    
+    text-align: center;
+    font-family: 'Tonight', sans-serif;
+    font-size: 32px;
+    color: gold;
+    width: fit-content;
+    border: solid 1px red;
+    border-radius: 10px;
+
+
+}
+
+#resetbtn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+    
+                                    
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+    #answer {
+        width: 80%;
+        display: flex;
+        margin: auto;
+        font-size: 14px;
+    }
+
+
+
 }

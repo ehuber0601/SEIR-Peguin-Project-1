@@ -80,3 +80,54 @@ const URL = "https://cdn.contentful.com/spaces/9p4e6o6yd4hi/environments/master/
 
             setBoard(questions)
         })
+
+
+const resetter = () => {
+    location.reload()
+}
+
+ const setcolor = setTimeout(color1,1000) ;
+
+function color1() {
+
+    $('.title1').css('color','red') ;
+    $('.title2').css('color','rgb(179, 19, 179)') ;
+    $('.title3').css('color','skyblue') ;
+    $('.title4').css('color','orange') ;
+
+	const setcolor = setTimeout(color2,1000) ;
+
+}
+
+function color2() {
+
+    $('.title1').css('color','orange') ;
+    $('.title2').css('color','red') ;
+    $('.title3').css('color','rgb(179, 19, 179)') ;
+    $('.title4').css('color','skyblue') ;
+
+	const setcolor = setTimeout(color3,1000) ;
+
+}
+
+function color3() {
+    $('.title1').css('color','skyblue') ;
+    $('.title2').css('color','orange') ;
+    $('.title3').css('color','red') ;
+    $('.title4').css('color','rgb(179, 19, 179)') ;
+
+	const setcolor = setTimeout(color4,1000) ;
+
+}
+
+function color4() {
+
+
+    $('.title1').css('color','rgb(179, 19, 179)') ;
+    $('.title2').css('color','skyblue') ;
+    $('.title3').css('color','orange') ;
+    $('.title4').css('color','red') ;
+
+	const setcolor = setTimeout(color1,1000) ;
+
+}

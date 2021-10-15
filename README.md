@@ -1,10 +1,10 @@
 # Project 1 Documentation
-## by Alex Merced
+## by Eric Huberman
 
 
 ## Introduction
 
-Explain what is your project here, what does it do, etc
+For this project, I made a two player trivia game with questions that were about either geography or programming. If either player gets a question right, then he/she gets one point added to the score board.
 
 ## Technologies Used
 
@@ -13,21 +13,18 @@ Explain what is your project here, what does it do, etc
 - JS
 - JQUERY
 
+## Steps
+- Created 20 questions on contentful.com
+- Made an AJAX form containg all the questions and answers
+- In my JS code, I pulled the AJAX and got the questions to display on the page.
+- Then, I created functions to set the board and to add points to either player one or player 2 if they answered the question correctly.
+- Lastly, I styled the page to give it more of a trivia game feel, such as adding a confetti background, and using a 3D font for the header that changes color every second!
+
 ## Challenges
 
 #### I have trouble with 
 
-My code looked like this
-
-```js
-console.log("hello")
-```
-
-It was a giving me a problem... when it was fixed it looked like this:
-
-```js
-console.log("goodbye")
-````
+Was a bit hard to come up with the right CSS styles for the game. Even more so for the media query part, because I wasn't exactly sure what to put for the min size. 
 #### Example Table
 
 | Column1 | Column2 |
